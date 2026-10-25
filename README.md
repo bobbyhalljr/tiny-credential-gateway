@@ -14,3 +14,5 @@ npx tsx gateway.ts
 ```
 
 MIT, by Bobby Hall Jr.
+
+Read the write-up on Dev.to: https://dev.to/bobbyhalljr/google-built-a-sandbox-with-nothing-to-steal-lets-build-a-tiny-credential-gateway-in-typescript-6ja
