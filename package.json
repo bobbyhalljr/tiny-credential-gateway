@@ -1,0 +1,10 @@
+{
+  "name": "tiny-credential-gateway",
+  "version": "1.0.0",
+  "description": "Tiny TypeScript credential gateway for sandboxed agents. The sandbox holds only a short-lived session token. The gateway verifies it, checks egress policy, strips agent auth headers, and injects the real credential outside. No API key. No network.",
+  "main": "gateway.ts",
+  "scripts": { "start": "tsx gateway.ts", "typecheck": "tsc --noEmit" },
+  "author": "Bobby Hall Jr",
+  "license": "MIT",
+  "devDependencies": { "@types/node": "^22.10.0", "tsx": "^4.19.2", "typescript": "^5.7.2" }
+}
